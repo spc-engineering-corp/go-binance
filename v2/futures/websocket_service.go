@@ -22,7 +22,8 @@ var (
 	// WebsocketKeepalive enables sending ping/pong messages to check the connection stability
 	WebsocketKeepalive = false
 	// UseTestnet switch all the WS streams from production to the testnet
-	UseTestnet = false
+	UseTestnet  = false
+	TestingMode = false
 )
 
 // getWsEndpoint return the base endpoint of the WS according the UseTestnet flag
